@@ -8,9 +8,9 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/photo_height"
         android:contentDescription="@string/author_photo_desc"
-        android:scaleType="fitStart"
+        android:scaleType="center"
         android:src="@drawable/author_photo">
 
     </ImageView>
