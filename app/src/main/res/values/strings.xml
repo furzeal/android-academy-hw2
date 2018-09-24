@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android Academy Homework 2</string>
+    <string name="author_photo_desc">Author Photo</string>
 </resources>
