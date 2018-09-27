@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Android Academy Homework 2</string>
+    <string name="app_name">Maxim Shatalov</string>
     <string name="author_photo_desc">Author Photo</string>
+    <string name="occupation">Senior Software Engineer at POINT</string>
+    <string name="au_speaker_2018">AU Speaker 2018</string>
+    <string name="about_hero">Maxim is engaged in software development, starting from 2015. The main activity is the development of applied programs for the manufacturing industry. He is responsible for the full development cycle, including UX/UI design, front-end and back-end development.</string>
 </resources>
