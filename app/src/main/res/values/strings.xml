@@ -4,4 +4,6 @@
     <string name="occupation">Senior Software Engineer at POINT</string>
     <string name="au_speaker_2018">AU Speaker 2018</string>
     <string name="about_hero">Maxim is engaged in software development, starting from 2015. The main activity is the development of applied programs for the manufacturing industry. He is responsible for the full development cycle, including UX/UI design, front-end and back-end development.</string>
+    <string name="enter_your_message">Enter your message...</string>
+    <string name="send_message">Send message</string>
 </resources>

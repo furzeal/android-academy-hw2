@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="photo_height">220dp</dimen>
+    <dimen name="photo_height">200dp</dimen>
     <dimen name="pic_size">28dp</dimen>
     <dimen name="margin_bottom">12dp</dimen>
     <dimen name="margin_left">50dp</dimen>
@@ -8,4 +8,7 @@
     <dimen name="text_margin_side">8dp</dimen>
     <dimen name="text_padding">4dp</dimen>
     <dimen name="text_size">16sp</dimen>
+    <dimen name="max_input_height">100dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
 </resources>
