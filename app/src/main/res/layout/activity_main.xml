@@ -117,7 +117,7 @@
             android:layout_below="@+id/message_input"
             android:textStyle="bold"
             android:textAlignment="textEnd"
-            android:background="none"
+            android:background="@android:color/transparent"
             android:text="@string/send_message"
             android:textColor="@android:color/holo_red_light" />
 
@@ -130,7 +130,7 @@
             android:layout_margin="@dimen/small_margin"
             android:layout_marginBottom="@dimen/margin_right"
             android:background="@drawable/ic_facebook"
-            android:textColor="@android:color/holo_red_light" />
+            />
 
         <Button
             android:id="@+id/vk_button"
@@ -142,7 +142,7 @@
             android:layout_margin="@dimen/small_margin"
             android:layout_marginBottom="@dimen/margin_right"
             android:background="@drawable/ic_vk"
-            android:textColor="@android:color/holo_red_light" />
+            />
 
         <Button
             android:id="@+id/github_button"
@@ -154,7 +154,7 @@
             android:layout_margin="@dimen/small_margin"
             android:layout_marginBottom="@dimen/margin_right"
             android:background="@drawable/ic_github_face"
-            android:textColor="@android:color/holo_red_light" />
+            />
 
     </RelativeLayout>
 </ScrollView>
