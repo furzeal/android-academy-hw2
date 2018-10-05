@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/pic_size"
                 android:layout_alignBottom="@+id/point_pic"
-                android:layout_marginEnd="@dimen/margin_right"
+                android:layout_marginEnd="@dimen/margin_common"
                 android:layout_marginStart="@dimen/text_margin_side"
                 android:layout_toEndOf="@+id/point_pic"
                 android:gravity="center_vertical"
@@ -130,7 +130,7 @@
                 android:layout_below="@+id/send_button"
                 android:layout_centerHorizontal="true"
                 android:layout_margin="@dimen/small_margin"
-                android:layout_marginBottom="@dimen/margin_right"
+                android:layout_marginBottom="@dimen/margin_common"
                 android:background="@drawable/ic_facebook"
                  />
 
@@ -138,30 +138,34 @@
                 android:id="@+id/vk_button"
                 android:layout_width="@dimen/pic_size"
                 android:layout_height="@dimen/pic_size"
+                android:layout_below="@+id/send_button"
+                android:layout_margin="@dimen/small_margin"
+                android:layout_marginBottom="@dimen/margin_common"
                 android:layout_toStartOf="@+id/facebook_button"
                 android:background="@drawable/ic_vk" />
 
-            <!--<Button-->
-                <!--android:id="@+id/vk_button"-->
-                <!--android:layout_width="@dimen/pic_size"-->
-                <!--android:layout_height="@dimen/pic_size"-->
-                <!--android:layout_below="@+id/send_button"-->
-                <!--android:layout_margin="@dimen/small_margin"-->
-                <!--android:layout_marginBottom="@dimen/margin_right"-->
-                <!--android:layout_toStartOf="@+id/facebook_button"-->
-                <!--android:background="@drawable/ic_vk"-->
-                <!--/>-->
+            <Button
+                android:id="@+id/github_button"
+                android:layout_width="@dimen/pic_size"
+                android:layout_height="@dimen/pic_size"
+                android:layout_below="@+id/send_button"
+                android:layout_margin="@dimen/small_margin"
+                android:layout_marginBottom="@dimen/margin_common"
+                android:layout_toEndOf="@+id/facebook_button"
+                android:background="@drawable/ic_github_face"
+                 />
 
-            <!--<Button-->
-                <!--android:id="@+id/github_button"-->
-                <!--android:layout_width="@dimen/pic_size"-->
-                <!--android:layout_height="@dimen/pic_size"-->
-                <!--android:layout_below="@+id/send_button"-->
-                <!--android:layout_margin="@dimen/small_margin"-->
-                <!--android:layout_marginBottom="@dimen/margin_right"-->
-                <!--android:layout_toEndOf="@+id/facebook_button"-->
-                <!--android:background="@drawable/ic_github_face"-->
-                 <!--/>-->
+            <TextView
+                android:id="@+id/disclaimer_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/facebook_button"
+                android:layout_margin="@dimen/margin_common"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:gravity="center"
+                android:text="@string/disclaimer"
+                android:textSize="@dimen/text_size" />
+
         </RelativeLayout>
 
     </ScrollView>
