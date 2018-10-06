@@ -7,4 +7,11 @@
     <string name="enter_your_message">Enter your message...</string>
     <string name="send_message">Send message</string>
     <string name="disclaimer">© 2018 Maxim Shatalov</string>
+    <string name="hero_email">shatalov04@gmail.com</string>
+    <string name="email_subject">Email from Android</string>
+    <string name="error_no_email_app">No Email apps were found!</string>
+    <string name="facebook_url">https://www.facebook.com/maxim.shatalov.50</string>
+    <string name="error_no_browser_app">No Browser apps were found!</string>
+    <string name="vk_url">https://vk.com/id224269077</string>
+    <string name="github_url">https://github.com/furzeal</string>
 </resources>
