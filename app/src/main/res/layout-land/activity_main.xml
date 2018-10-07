@@ -15,12 +15,12 @@
         android:src="@drawable/hero_photo" />
 
     <ScrollView android:layout_height="match_parent"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_toEndOf="@+id/photo_view">
 
         <RelativeLayout
             android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             >
 
             <ImageView
@@ -85,7 +85,6 @@
                 android:layout_alignStart="@+id/point_pic"
                 android:layout_below="@+id/occupation_splitter"
                 android:layout_marginBottom="@dimen/margin_bottom"
-                android:gravity="center_vertical"
                 android:text="@string/about_hero"
                 android:textSize="@dimen/text_size" />
 
@@ -112,11 +111,11 @@
 
             <Button
                 android:id="@+id/send_button"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="@dimen/button_height"
                 android:layout_alignEnd="@+id/occupation_text"
-                android:layout_alignStart="@+id/point_pic"
                 android:layout_below="@+id/message_input"
+                android:padding="@dimen/small_margin"
                 android:background="@android:color/transparent"
                 android:text="@string/send_message"
                 android:textAlignment="textEnd"
@@ -157,12 +156,12 @@
 
             <TextView
                 android:id="@+id/disclaimer_text"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/facebook_button"
+                android:layout_centerHorizontal="true"
                 android:layout_margin="@dimen/margin_common"
                 android:layout_marginBottom="@dimen/margin_bottom"
-                android:gravity="center"
                 android:text="@string/disclaimer"
                 android:textSize="@dimen/text_size" />
 
