@@ -34,14 +34,14 @@ public class MainActivity extends AppCompatActivity {
         vkButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openBrowser(getString(R.string.facebook_url));
+                openBrowser(getString(R.string.vk_url));
             }
         });
 
         facebookButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openBrowser(getString(R.string.vk_url));
+                openBrowser(getString(R.string.facebook_url));
             }
         });
 
